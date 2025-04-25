@@ -1,0 +1,15 @@
+# Ensure consistent line endings
+* text=auto
+
+# Treat Python files as text
+*.py text
+
+# Treat Markdown files as text
+*.md text
+
+# Ensure JSON files are treated as text
+*.json text
+
+# Ignore binary diff for virtual environments
+env/** binary
+venv/** binary
